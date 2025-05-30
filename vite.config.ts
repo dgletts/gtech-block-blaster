@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
-      }
+      },
       base: isProduction ? '/gtech-block-blaster/' : '/',
     };
 });
